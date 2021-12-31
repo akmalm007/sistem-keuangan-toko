@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Akmal Maulana\\source\\repos\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj": {}
+    "C:\\Users\\User\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Akmal Maulana\\source\\repos\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj": {
+    "C:\\Users\\User\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Akmal Maulana\\source\\repos\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj",
+        "projectUniqueName": "C:\\Users\\User\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj",
         "projectName": "sistem-keuangan-toko",
-        "projectPath": "C:\\Users\\Akmal Maulana\\source\\repos\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj",
-        "packagesPath": "C:\\Users\\Akmal Maulana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Akmal Maulana\\source\\repos\\sistem-keuangan-toko\\sistem-keuangan-toko\\obj\\",
+        "projectPath": "C:\\Users\\User\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\sistem-keuangan-toko\\sistem-keuangan-toko\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Akmal Maulana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,9 +25,7 @@
           "net5.0-windows7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://nuget.org": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0-windows7.0": {
@@ -62,7 +60,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
