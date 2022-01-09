@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj": {}
+    "C:\\Users\\User\\Downloads\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj": {
+    "C:\\Users\\User\\Downloads\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj",
+        "projectUniqueName": "C:\\Users\\User\\Downloads\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj",
         "projectName": "sistem-keuangan-toko",
-        "projectPath": "C:\\Users\\User\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj",
+        "projectPath": "C:\\Users\\User\\Downloads\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\sistem-keuangan-toko\\sistem-keuangan-toko\\obj\\",
+        "outputPath": "C:\\Users\\User\\Downloads\\sistem-keuangan-toko\\sistem-keuangan-toko\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.27, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
