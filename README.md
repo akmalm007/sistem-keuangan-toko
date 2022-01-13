@@ -8,31 +8,31 @@ Anggota Kelompok
 ~ = Udah Di Cicil
 
 Class:
-1.	Users ~
+1.	Users -Tinggal Rapihkan saja
 2.	Barang ~
 3.	Jenis Barang
 4.	Barang Masuk
 
 Form : 
-1.	Sign In ~
-2.	Sign Up ~
+1.	Sign In -OK
+2.	Sign Up -OK
 
-3.	Form Barang (Data Grid View Barang) ~
-4.	Tambah Barang ~
-5.	Update Barang ~
-6.	Hapus Barang ~
+3.	Form Barang (Data Grid View Barang) -OK
+4.	Tambah Barang -OK
+5.	Update Barang -OK
+6.	Hapus Barang -OK
 
-7.	Form Jenis Barang (Data Grid View Jenis Barang)
+7.	Form Jenis Barang (Data Grid View Jenis Barang) 
 8.	Tambah Jenis Barang
 9.	Update Jenis Barang
 10.	Hapus Jenis Barang
 
-11.	Form Penjualan (Data Grid View Penjualan)
-12.	Tambah Penjualan
-13.	Update Penjualan
-14.	Hapus Penjualan
+11.	Form Penjualan (Data Grid View Penjualan) -OK
+12.	Tambah Penjualan -OK
+13.	Update Penjualan -OK
+14.	Hapus Penjualan -OK
 
-15.	Barang Masuk (Data Grid View Penjualan)
-16.	Tambah Barang Masuk
-17.	Hapus Barang Masuk
-18.	Update Barang Masuk
+15.	Barang Masuk (Data Grid View Penjualan) -OK
+16.	Tambah Barang Masuk -OK
+17.	Hapus Barang Masuk -OK
+18.	Update Barang Masuk -OK
