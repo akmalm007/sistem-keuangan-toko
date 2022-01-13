@@ -25,3 +25,9 @@ C:\Users\Bintang\Dev\sistem-keuangan-toko\sistem-keuangan-toko\bin\Debug\net5.0-
 C:\Users\Bintang\Dev\sistem-keuangan-toko\sistem-keuangan-toko\bin\Debug\net5.0-windows\MySql.Data.dll
 C:\Users\Bintang\Dev\sistem-keuangan-toko\sistem-keuangan-toko\bin\Debug\net5.0-windows\Ubiety.Dns.Core.dll
 C:\Users\Bintang\Dev\sistem-keuangan-toko\sistem-keuangan-toko\bin\Debug\net5.0-windows\ZstdNet.dll
+C:\Users\Bintang\Dev\sistem-keuangan-toko\sistem-keuangan-toko\obj\Debug\net5.0-windows\sistem_keuangan_toko.FormPenjualan.resources
+C:\Users\Bintang\Dev\sistem-keuangan-toko\sistem-keuangan-toko\obj\Debug\net5.0-windows\sistem_keuangan_toko.FormSignIn.resources
+C:\Users\Bintang\Dev\sistem-keuangan-toko\sistem-keuangan-toko\obj\Debug\net5.0-windows\sistem_keuangan_toko.FormSignUp.resources
+C:\Users\Bintang\Dev\sistem-keuangan-toko\sistem-keuangan-toko\obj\Debug\net5.0-windows\sistem_keuangan_toko.FormCariBarang.resources
+C:\Users\Bintang\Dev\sistem-keuangan-toko\sistem-keuangan-toko\obj\Debug\net5.0-windows\sistem_keuangan_toko.FormBarangMasuk.resources
+C:\Users\Bintang\Dev\sistem-keuangan-toko\sistem-keuangan-toko\obj\Debug\net5.0-windows\sistem_keuangan_toko.FormJenisBarang.resources

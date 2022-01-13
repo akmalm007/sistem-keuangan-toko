@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>sistem_keuangan_toko</RootNamespace>
-    <StartupObject>Sub Main</StartupObject>
+    <StartupObject>sistem_keuangan_toko.FormSignIn</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
   </PropertyGroup>
