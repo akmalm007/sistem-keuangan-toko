@@ -11,7 +11,11 @@ Class:
 1.	Users ~
 2.	Barang ~
 3.	Jenis Barang
+<<<<<<< HEAD
 4.	Barang Masuk ~
+=======
+4.	Barang Masuk
+>>>>>>> 8370ed79154049d02d7e92006560b26d173168f7
 
 Form : 
 1.	Sign In ~
@@ -27,6 +31,7 @@ Form :
 9.	Update Jenis Barang
 10.	Hapus Jenis Barang
 
+<<<<<<< HEAD
 11.	Form Penjualan (Data Grid View Penjualan) ~
 12.	Tambah Penjualan ~
 13.	Update Penjualan ~
@@ -36,3 +41,14 @@ Form :
 16.	Tambah Barang Masuk ~
 17.	Hapus Barang Masuk ~
 18.	Update Barang Masuk ~
+=======
+11.	Form Penjualan (Data Grid View Penjualan)
+12.	Tambah Penjualan
+13.	Update Penjualan
+14.	Hapus Penjualan
+
+15.	Barang Masuk (Data Grid View Penjualan)
+16.	Tambah Barang Masuk
+17.	Hapus Barang Masuk
+18.	Update Barang Masuk
+>>>>>>> 8370ed79154049d02d7e92006560b26d173168f7
