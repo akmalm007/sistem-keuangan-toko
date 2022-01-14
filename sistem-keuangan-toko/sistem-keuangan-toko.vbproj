@@ -5,10 +5,14 @@
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>sistem_keuangan_toko</RootNamespace>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <StartupObject>sistem_keuangan_toko.FormJenisBarang</StartupObject>
 =======
     <StartupObject>sistem_keuangan_toko.SignIn</StartupObject>
 >>>>>>> 8370ed79154049d02d7e92006560b26d173168f7
+=======
+    <StartupObject>sistem_keuangan_toko.FormSignIn</StartupObject>
+>>>>>>> a6c4cbed797e44405a8ef423532c147ceba618b9
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
   </PropertyGroup>

@@ -1,5 +1,6 @@
 is_global = true
 <<<<<<< HEAD
+<<<<<<< HEAD
 build_property.ApplicationManifest = 
 build_property.StartupObject = sistem_keuangan_toko.FormJenisBarang
 build_property.ApplicationDefaultFont = 
@@ -8,6 +9,8 @@ build_property.ApplicationUseCompatibleTextRendering =
 build_property.ApplicationVisualStyles = 
 =======
 >>>>>>> 8370ed79154049d02d7e92006560b26d173168f7
+=======
+>>>>>>> a6c4cbed797e44405a8ef423532c147ceba618b9
 build_property.TargetFramework = net5.0-windows
 build_property.TargetPlatformMinVersion = 7.0
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -16,4 +19,8 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = sistem_keuangan_toko
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\User\Downloads\sistem-keuangan-toko\sistem-keuangan-toko\
+=======
+build_property.ProjectDir = C:\Users\Bintang\Dev\sistem-keuangan-toko\sistem-keuangan-toko\
+>>>>>>> a6c4cbed797e44405a8ef423532c147ceba618b9

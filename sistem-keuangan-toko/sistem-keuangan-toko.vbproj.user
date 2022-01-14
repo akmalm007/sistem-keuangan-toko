@@ -2,12 +2,23 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <Compile Update="FormHapusJenisBarang.vb">
+=======
+    <Compile Update="FormBarang.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormBarangMasuk.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormCariBarang.vb">
+>>>>>>> a6c4cbed797e44405a8ef423532c147ceba618b9
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FormJenisBarang.vb">
       <SubType>Form</SubType>
     </Compile>
+<<<<<<< HEAD
     <Compile Update="FormTambahJenisBarang.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -24,6 +35,15 @@
     </Compile>
     <Compile Update="SignUp.vb">
 >>>>>>> 8370ed79154049d02d7e92006560b26d173168f7
+=======
+    <Compile Update="FormPenjualan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormSignIn.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FormSignUp.vb">
+>>>>>>> a6c4cbed797e44405a8ef423532c147ceba618b9
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

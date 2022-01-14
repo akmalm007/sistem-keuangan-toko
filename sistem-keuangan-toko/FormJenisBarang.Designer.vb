@@ -22,6 +22,7 @@ Partial Class FormJenisBarang
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+<<<<<<< HEAD
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.PilihMenuLainnyaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FormPenjualanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -137,4 +138,11 @@ Partial Class FormJenisBarang
     Friend WithEvents BtnUpdateJenisBarang As Button
     Friend WithEvents BtnHapusJenisBarang As Button
     Friend WithEvents DataGridJenisBarang As DataGridView
+=======
+        components = New System.ComponentModel.Container
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Text = "FormJenisBarang"
+    End Sub
+>>>>>>> a6c4cbed797e44405a8ef423532c147ceba618b9
 End Class

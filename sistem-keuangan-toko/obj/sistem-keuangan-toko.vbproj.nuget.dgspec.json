@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\User\\Downloads\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\User\\Downloads\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\User\\Downloads\\sistem-keuangan-toko\\sistem-keuangan-toko\\obj\\",
+=======
+    "C:\\Users\\Bintang\\Dev\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Bintang\\Dev\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bintang\\Dev\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj",
+        "projectName": "sistem-keuangan-toko",
+        "projectPath": "C:\\Users\\Bintang\\Dev\\sistem-keuangan-toko\\sistem-keuangan-toko\\sistem-keuangan-toko.vbproj",
+        "packagesPath": "C:\\Users\\Bintang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bintang\\Dev\\sistem-keuangan-toko\\sistem-keuangan-toko\\obj\\",
+>>>>>>> a6c4cbed797e44405a8ef423532c147ceba618b9
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\Bintang\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> a6c4cbed797e44405a8ef423532c147ceba618b9
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -25,6 +43,10 @@
           "net5.0-windows7.0"
         ],
         "sources": {
+<<<<<<< HEAD
+=======
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+>>>>>>> a6c4cbed797e44405a8ef423532c147ceba618b9
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

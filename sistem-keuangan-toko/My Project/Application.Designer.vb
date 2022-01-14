@@ -33,11 +33,15 @@ Namespace My
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
 <<<<<<< HEAD
+<<<<<<< HEAD
             Me.MainForm = Global.sistem_keuangan_toko.FormJenisBarang
 
 =======
             Me.MainForm = Global.sistem_keuangan_toko.SignIn
 >>>>>>> 8370ed79154049d02d7e92006560b26d173168f7
+=======
+            Me.MainForm = Global.sistem_keuangan_toko.FormSignIn
+>>>>>>> a6c4cbed797e44405a8ef423532c147ceba618b9
         End Sub
     End Class
 End Namespace

@@ -1,5 +1,6 @@
 ﻿Public Class FormJenisBarang
 
+<<<<<<< HEAD
     Public Shared jenisbarang As JenisBarang
     Public Shared selectedTableJenisBarang
     Public Shared selectedTableJenisBarangNama
@@ -61,4 +62,6 @@
         selectedTableJenisBarangNama = selectedRow.Cells(1).Value
 
     End Sub
+=======
+>>>>>>> a6c4cbed797e44405a8ef423532c147ceba618b9
 End Class
