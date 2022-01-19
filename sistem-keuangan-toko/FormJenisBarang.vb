@@ -1,6 +1,5 @@
 ﻿Public Class FormJenisBarang
 
-<<<<<<< HEAD
     Public Shared jenisbarang As JenisBarang
     Public Shared selectedTableJenisBarang
     Public Shared selectedTableJenisBarangNama
@@ -62,6 +61,22 @@
         selectedTableJenisBarangNama = selectedRow.Cells(1).Value
 
     End Sub
-=======
->>>>>>> a6c4cbed797e44405a8ef423532c147ceba618b9
+
+    Private Sub FormPenjualanToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FormPenjualanToolStripMenuItem.Click
+        Dim formpenjualan = New FormPenjualan()
+        formpenjualan.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub FormBarangToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FormBarangToolStripMenuItem.Click
+        Dim formbarang = New FormBarang()
+        formbarang.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub FormBarangMasukToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FormBarangMasukToolStripMenuItem.Click
+        Dim formbarangmasuk = New FormBarangMasuk()
+        formbarangmasuk.Show()
+        Me.Close()
+    End Sub
 End Class

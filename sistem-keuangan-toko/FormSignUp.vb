@@ -4,10 +4,11 @@
         Dim registeredPassword As String = Txt_Password.Text
         Dim registeredEmail As String = Txt_Email.Text
 
+
         Dim regist = FormSignIn.User.RegisteredUser(registeredUsername, registeredPassword, registeredEmail)
 
         If regist And Txt_Username.Text.Length > 0 And Txt_Password.Text.Length > 0 Then
-            LB_Akun.Items.Add(Txt_Username.Text)
+            ''LB_Akun.Items.Add(Txt_Username.Text)
             FormSignIn.User.AddUserDataBase(Txt_Username.Text, Txt_Password.Text, Txt_Email.Text)
             MessageBox.Show("Berhasil Ditambahkan")
             Me.Hide()

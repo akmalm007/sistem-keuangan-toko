@@ -70,7 +70,7 @@ Partial Class FormBarang
         Me.Txt_NamaBarang.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Txt_NamaBarang.Location = New System.Drawing.Point(189, 30)
         Me.Txt_NamaBarang.Name = "Txt_NamaBarang"
-        Me.Txt_NamaBarang.Size = New System.Drawing.Size(281, 27)
+        Me.Txt_NamaBarang.Size = New System.Drawing.Size(281, 23)
         Me.Txt_NamaBarang.TabIndex = 7
         '
         'Txt_stock
@@ -78,7 +78,7 @@ Partial Class FormBarang
         Me.Txt_stock.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Txt_stock.Location = New System.Drawing.Point(189, 75)
         Me.Txt_stock.Name = "Txt_stock"
-        Me.Txt_stock.Size = New System.Drawing.Size(281, 27)
+        Me.Txt_stock.Size = New System.Drawing.Size(281, 23)
         Me.Txt_stock.TabIndex = 8
         '
         'Txt_harga
@@ -86,7 +86,7 @@ Partial Class FormBarang
         Me.Txt_harga.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Txt_harga.Location = New System.Drawing.Point(189, 118)
         Me.Txt_harga.Name = "Txt_harga"
-        Me.Txt_harga.Size = New System.Drawing.Size(281, 27)
+        Me.Txt_harga.Size = New System.Drawing.Size(281, 23)
         Me.Txt_harga.TabIndex = 9
         '
         'Label2
@@ -95,7 +95,7 @@ Partial Class FormBarang
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
         Me.Label2.Location = New System.Drawing.Point(16, 33)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(109, 20)
+        Me.Label2.Size = New System.Drawing.Size(86, 15)
         Me.Label2.TabIndex = 11
         Me.Label2.Text = "Nama Barang"
         '
@@ -105,7 +105,7 @@ Partial Class FormBarang
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
         Me.Label3.Location = New System.Drawing.Point(16, 75)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(47, 20)
+        Me.Label3.Size = New System.Drawing.Size(38, 15)
         Me.Label3.TabIndex = 12
         Me.Label3.Text = "Stock"
         '
@@ -115,7 +115,7 @@ Partial Class FormBarang
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
         Me.Label4.Location = New System.Drawing.Point(16, 121)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(53, 20)
+        Me.Label4.Size = New System.Drawing.Size(42, 15)
         Me.Label4.TabIndex = 13
         Me.Label4.Text = "Harga"
         '
@@ -124,7 +124,7 @@ Partial Class FormBarang
         Me.Date_Masuk.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Date_Masuk.Location = New System.Drawing.Point(189, 163)
         Me.Date_Masuk.Name = "Date_Masuk"
-        Me.Date_Masuk.Size = New System.Drawing.Size(281, 27)
+        Me.Date_Masuk.Size = New System.Drawing.Size(281, 23)
         Me.Date_Masuk.TabIndex = 14
         '
         'Date_Kadaluarsa
@@ -132,7 +132,7 @@ Partial Class FormBarang
         Me.Date_Kadaluarsa.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
         Me.Date_Kadaluarsa.Location = New System.Drawing.Point(189, 211)
         Me.Date_Kadaluarsa.Name = "Date_Kadaluarsa"
-        Me.Date_Kadaluarsa.Size = New System.Drawing.Size(281, 27)
+        Me.Date_Kadaluarsa.Size = New System.Drawing.Size(281, 23)
         Me.Date_Kadaluarsa.TabIndex = 15
         '
         'Label5
@@ -141,7 +141,7 @@ Partial Class FormBarang
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
         Me.Label5.Location = New System.Drawing.Point(16, 168)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(118, 20)
+        Me.Label5.Size = New System.Drawing.Size(92, 15)
         Me.Label5.TabIndex = 16
         Me.Label5.Text = "Tanggal Masuk"
         '
@@ -151,7 +151,7 @@ Partial Class FormBarang
         Me.Label6.Font = New System.Drawing.Font("Segoe UI", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
         Me.Label6.Location = New System.Drawing.Point(16, 215)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(154, 20)
+        Me.Label6.Size = New System.Drawing.Size(120, 15)
         Me.Label6.TabIndex = 17
         Me.Label6.Text = "Tanggal Kadaluarsa"
         '
@@ -196,7 +196,7 @@ Partial Class FormBarang
         Me.Label7.ForeColor = System.Drawing.SystemColors.Control
         Me.Label7.Location = New System.Drawing.Point(27, 52)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(152, 31)
+        Me.Label7.Size = New System.Drawing.Size(128, 25)
         Me.Label7.TabIndex = 21
         Me.Label7.Text = "Form Barang"
         '
@@ -206,7 +206,7 @@ Partial Class FormBarang
         Me.Label8.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
         Me.Label8.Location = New System.Drawing.Point(376, 356)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(166, 28)
+        Me.Label8.Size = New System.Drawing.Size(135, 21)
         Me.Label8.TabIndex = 22
         Me.Label8.Text = "Database Barang"
         '
@@ -218,7 +218,7 @@ Partial Class FormBarang
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(7, 2, 0, 2)
-        Me.MenuStrip1.Size = New System.Drawing.Size(960, 29)
+        Me.MenuStrip1.Size = New System.Drawing.Size(960, 25)
         Me.MenuStrip1.TabIndex = 24
         Me.MenuStrip1.Text = "MenuStrip1"
         '
@@ -226,27 +226,27 @@ Partial Class FormBarang
         '
         Me.PilihFormLainnyaToolStripMenuItem.BackColor = System.Drawing.Color.LightCyan
         Me.PilihFormLainnyaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TSMenu_FormJenisBarang, Me.TSMenu_FormPenjualan, Me.TSMenu_FormBarangMasuk})
-        Me.PilihFormLainnyaToolStripMenuItem.Font = New System.Drawing.Font("Myriad Pro Light", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.PilihFormLainnyaToolStripMenuItem.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.PilihFormLainnyaToolStripMenuItem.Name = "PilihFormLainnyaToolStripMenuItem"
-        Me.PilihFormLainnyaToolStripMenuItem.Size = New System.Drawing.Size(162, 25)
+        Me.PilihFormLainnyaToolStripMenuItem.Size = New System.Drawing.Size(154, 21)
         Me.PilihFormLainnyaToolStripMenuItem.Text = "Pilih Form Lainnya"
         '
         'TSMenu_FormJenisBarang
         '
         Me.TSMenu_FormJenisBarang.Name = "TSMenu_FormJenisBarang"
-        Me.TSMenu_FormJenisBarang.Size = New System.Drawing.Size(244, 26)
+        Me.TSMenu_FormJenisBarang.Size = New System.Drawing.Size(220, 22)
         Me.TSMenu_FormJenisBarang.Text = "Form Jenis Barang"
         '
         'TSMenu_FormPenjualan
         '
         Me.TSMenu_FormPenjualan.Name = "TSMenu_FormPenjualan"
-        Me.TSMenu_FormPenjualan.Size = New System.Drawing.Size(244, 26)
+        Me.TSMenu_FormPenjualan.Size = New System.Drawing.Size(220, 22)
         Me.TSMenu_FormPenjualan.Text = "Form Penjualan"
         '
         'TSMenu_FormBarangMasuk
         '
         Me.TSMenu_FormBarangMasuk.Name = "TSMenu_FormBarangMasuk"
-        Me.TSMenu_FormBarangMasuk.Size = New System.Drawing.Size(244, 26)
+        Me.TSMenu_FormBarangMasuk.Size = New System.Drawing.Size(220, 22)
         Me.TSMenu_FormBarangMasuk.Text = "Form Barang Masuk"
         '
         'Panel1
@@ -269,7 +269,7 @@ Partial Class FormBarang
         '
         'FormBarang
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.PaleTurquoise
         Me.ClientSize = New System.Drawing.Size(960, 733)

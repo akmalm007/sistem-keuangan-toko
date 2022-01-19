@@ -11,11 +11,7 @@ Class:
 1.	Users -Tinggal Rapihkan saja
 2.	Barang ~
 3.	Jenis Barang
-<<<<<<< HEAD
 4.	Barang Masuk ~
-=======
-4.	Barang Masuk
->>>>>>> 8370ed79154049d02d7e92006560b26d173168f7
 
 Form : 
 1.	Sign In -OK
@@ -31,8 +27,8 @@ Form :
 9.	Update Jenis Barang
 10.	Hapus Jenis Barang
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+<<<<<<< 
+<<<<<<< 
 11.	Form Penjualan (Data Grid View Penjualan) ~
 12.	Tambah Penjualan ~
 13.	Update Penjualan ~

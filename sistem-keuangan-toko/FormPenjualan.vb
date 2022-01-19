@@ -183,18 +183,21 @@ Public Class FormPenjualan
     End Sub
 
     Private Sub TSMenu_FormJenisBarang_Click(sender As Object, e As EventArgs) Handles TSMenu_FormJenisBarang.Click
-        'Dim formJenis = New FormJenisBarang()
-        'formJenis.Show()
+        Dim formJenis = New FormJenisBarang()
+        formJenis.Show()
+        Me.Close()
     End Sub
 
     Private Sub TSMenu_FormPenjualan_Click(sender As Object, e As EventArgs) Handles TSMenu_FormPenjualan.Click
         Dim formPenjualan = New FormPenjualan()
         formPenjualan.Show()
+        Me.Close()
     End Sub
 
     Private Sub FormBarangMasukToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles FormBarangMasukToolStripMenuItem.Click
         Dim formbarangmasuk = New FormBarangMasuk()
         formbarangmasuk.Show()
+        Me.Close()
     End Sub
 
     Private Sub Btn_Cari_Click(sender As Object, e As EventArgs) Handles Btn_Cari.Click

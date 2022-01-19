@@ -4,18 +4,50 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <RootNamespace>sistem_keuangan_toko</RootNamespace>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <StartupObject>sistem_keuangan_toko.FormJenisBarang</StartupObject>
-=======
-    <StartupObject>sistem_keuangan_toko.SignIn</StartupObject>
->>>>>>> 8370ed79154049d02d7e92006560b26d173168f7
-=======
     <StartupObject>sistem_keuangan_toko.FormSignIn</StartupObject>
->>>>>>> a6c4cbed797e44405a8ef423532c147ceba618b9
     <UseWindowsForms>true</UseWindowsForms>
     <MyType>WindowsForms</MyType>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ApplicationEvents - Copy.vb" />
+    <Compile Remove="ClassBarang - Copy.vb" />
+    <Compile Remove="ClassUser - Copy.vb" />
+    <Compile Remove="FormBarang - Copy.Designer.vb" />
+    <Compile Remove="FormBarang - Copy.vb" />
+    <Compile Remove="FormBarangMasuk - Copy.Designer.vb" />
+    <Compile Remove="FormBarangMasuk - Copy.vb" />
+    <Compile Remove="FormCariBarang - Copy.Designer.vb" />
+    <Compile Remove="FormCariBarang - Copy.vb" />
+    <Compile Remove="FormHapusJenisBarang - Copy.Designer.vb" />
+    <Compile Remove="FormHapusJenisBarang - Copy.vb" />
+    <Compile Remove="FormJenisBarang - Copy.Designer.vb" />
+    <Compile Remove="FormJenisBarang - Copy.vb" />
+    <Compile Remove="FormPenjualan - Copy.Designer.vb" />
+    <Compile Remove="FormPenjualan - Copy.vb" />
+    <Compile Remove="FormSignIn - Copy.Designer.vb" />
+    <Compile Remove="FormSignIn - Copy.vb" />
+    <Compile Remove="FormSignUp - Copy.Designer.vb" />
+    <Compile Remove="FormSignUp - Copy.vb" />
+    <Compile Remove="FormTambahJenisBarang - Copy.Designer.vb" />
+    <Compile Remove="FormTambahJenisBarang - Copy.vb" />
+    <Compile Remove="FormUpdateJenisBarang - Copy.Designer.vb" />
+    <Compile Remove="FormUpdateJenisBarang - Copy.vb" />
+    <Compile Remove="JenisBarang - Copy.vb" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Remove="FormBarang - Copy.resx" />
+    <EmbeddedResource Remove="FormBarangMasuk - Copy.resx" />
+    <EmbeddedResource Remove="FormCariBarang - Copy.resx" />
+    <EmbeddedResource Remove="FormHapusJenisBarang - Copy.resx" />
+    <EmbeddedResource Remove="FormJenisBarang - Copy.resx" />
+    <EmbeddedResource Remove="FormPenjualan - Copy.resx" />
+    <EmbeddedResource Remove="FormSignIn - Copy.resx" />
+    <EmbeddedResource Remove="FormSignUp - Copy.resx" />
+    <EmbeddedResource Remove="FormTambahJenisBarang - Copy.resx" />
+    <EmbeddedResource Remove="FormUpdateJenisBarang - Copy.resx" />
+  </ItemGroup>
 
   <ItemGroup>
     <Import Include="System.Data" />
@@ -33,19 +65,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
     </Compile>
-    <Compile Update="My Project\Resources.Designer.vb">
-      <DesignTime>True</DesignTime>
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Update="My Project\Resources.resx">
-      <CustomToolNamespace>My.Resources</CustomToolNamespace>
-      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
-    </EmbeddedResource>
   </ItemGroup>
 
   <ItemGroup>

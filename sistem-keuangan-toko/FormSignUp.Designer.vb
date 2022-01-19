@@ -42,9 +42,9 @@ Partial Class FormSignUp
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Linen
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
-        Me.Label1.Location = New System.Drawing.Point(188, 34)
+        Me.Label1.Location = New System.Drawing.Point(164, 26)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(163, 28)
+        Me.Label1.Size = New System.Drawing.Size(132, 21)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Selamat Datang"
         '
@@ -52,9 +52,9 @@ Partial Class FormSignUp
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(20, 39)
+        Me.Label2.Location = New System.Drawing.Point(18, 29)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(81, 20)
+        Me.Label2.Size = New System.Drawing.Size(63, 15)
         Me.Label2.TabIndex = 1
         Me.Label2.Text = "Username"
         '
@@ -62,9 +62,9 @@ Partial Class FormSignUp
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(20, 84)
+        Me.Label3.Location = New System.Drawing.Point(18, 63)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(77, 20)
+        Me.Label3.Size = New System.Drawing.Size(61, 15)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "Password"
         '
@@ -72,40 +72,44 @@ Partial Class FormSignUp
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Label4.Location = New System.Drawing.Point(20, 129)
+        Me.Label4.Location = New System.Drawing.Point(18, 97)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(50, 20)
+        Me.Label4.Size = New System.Drawing.Size(39, 15)
         Me.Label4.TabIndex = 3
         Me.Label4.Text = "Email"
         '
         'Txt_Username
         '
-        Me.Txt_Username.Location = New System.Drawing.Point(137, 36)
+        Me.Txt_Username.Location = New System.Drawing.Point(120, 27)
+        Me.Txt_Username.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Txt_Username.Name = "Txt_Username"
-        Me.Txt_Username.Size = New System.Drawing.Size(339, 27)
+        Me.Txt_Username.Size = New System.Drawing.Size(297, 23)
         Me.Txt_Username.TabIndex = 4
         '
         'Txt_Password
         '
-        Me.Txt_Password.Location = New System.Drawing.Point(137, 81)
+        Me.Txt_Password.Location = New System.Drawing.Point(120, 61)
+        Me.Txt_Password.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Txt_Password.Name = "Txt_Password"
-        Me.Txt_Password.Size = New System.Drawing.Size(339, 27)
+        Me.Txt_Password.Size = New System.Drawing.Size(297, 23)
         Me.Txt_Password.TabIndex = 5
         '
         'Txt_Email
         '
-        Me.Txt_Email.Location = New System.Drawing.Point(137, 126)
+        Me.Txt_Email.Location = New System.Drawing.Point(120, 94)
+        Me.Txt_Email.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Txt_Email.Name = "Txt_Email"
-        Me.Txt_Email.Size = New System.Drawing.Size(339, 27)
+        Me.Txt_Email.Size = New System.Drawing.Size(297, 23)
         Me.Txt_Email.TabIndex = 6
         '
         'Btn_Signup
         '
         Me.Btn_Signup.BackColor = System.Drawing.Color.BurlyWood
         Me.Btn_Signup.Font = New System.Drawing.Font("Segoe UI", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Btn_Signup.Location = New System.Drawing.Point(231, 376)
+        Me.Btn_Signup.Location = New System.Drawing.Point(202, 282)
+        Me.Btn_Signup.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Btn_Signup.Name = "Btn_Signup"
-        Me.Btn_Signup.Size = New System.Drawing.Size(94, 29)
+        Me.Btn_Signup.Size = New System.Drawing.Size(82, 22)
         Me.Btn_Signup.TabIndex = 8
         Me.Btn_Signup.Text = "Sign Up!"
         Me.Btn_Signup.UseVisualStyleBackColor = False
@@ -114,9 +118,10 @@ Partial Class FormSignUp
         '
         Me.Panel1.BackgroundImage = CType(resources.GetObject("Panel1.BackgroundImage"), System.Drawing.Image)
         Me.Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.Panel1.Location = New System.Drawing.Point(126, 169)
+        Me.Panel1.Location = New System.Drawing.Point(110, 127)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(217, 124)
+        Me.Panel1.Size = New System.Drawing.Size(190, 93)
         Me.Panel1.TabIndex = 9
         '
         'Panel2
@@ -129,20 +134,22 @@ Partial Class FormSignUp
         Me.Panel2.Controls.Add(Me.Txt_Email)
         Me.Panel2.Controls.Add(Me.Label4)
         Me.Panel2.Controls.Add(Me.Txt_Password)
-        Me.Panel2.Location = New System.Drawing.Point(31, 56)
+        Me.Panel2.Location = New System.Drawing.Point(27, 42)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(491, 311)
+        Me.Panel2.Size = New System.Drawing.Size(430, 233)
         Me.Panel2.TabIndex = 10
         '
         'FormSignUp
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.BurlyWood
-        Me.ClientSize = New System.Drawing.Size(558, 420)
+        Me.ClientSize = New System.Drawing.Size(488, 315)
         Me.Controls.Add(Me.Btn_Signup)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel2)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "FormSignUp"
         Me.Text = "SignUp"
         Me.Panel2.ResumeLayout(False)

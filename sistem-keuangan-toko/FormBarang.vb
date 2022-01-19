@@ -197,19 +197,23 @@ Public Class FormBarang
     End Sub
 
     Private Sub TSMenu_FormJenisBarang_Click(sender As Object, e As EventArgs) Handles TSMenu_FormJenisBarang.Click
-        'Dim formJenis = New FormJenisBarang()
-        'formJenis.Show()
+        Dim formJenis = New FormJenisBarang()
+        formJenis.Show()
+
     End Sub
 
     Private Sub TSMenu_FormPenjualan_Click(sender As Object, e As EventArgs) Handles TSMenu_FormPenjualan.Click
         Dim formPenjualan = New FormPenjualan()
         formPenjualan.Show()
+
     End Sub
 
     Private Sub FormBarangMasukToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TSMenu_FormBarangMasuk.Click
         Dim formBarangMasuk = New FormBarangMasuk()
         formBarangMasuk.Show()
+
     End Sub
+
 
     'Private Function updatebarangfrombarangmasuktobarang(id_barang As Integer, jumlah_barang_masuk As Integer)
     '    mycmd.Connection = myconnection.open
