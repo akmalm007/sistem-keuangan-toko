@@ -27,29 +27,6 @@ Form :
 9.	Update Jenis Barang
 10.	Hapus Jenis Barang
 
-<<<<<<< 
-<<<<<<< 
-11.	Form Penjualan (Data Grid View Penjualan) ~
-12.	Tambah Penjualan ~
-13.	Update Penjualan ~
-14.	Hapus Penjualan ~
-
-15.	Barang Masuk (Data Grid View Penjualan) ~
-16.	Tambah Barang Masuk ~
-17.	Hapus Barang Masuk ~
-18.	Update Barang Masuk ~
-=======
-11.	Form Penjualan (Data Grid View Penjualan)
-12.	Tambah Penjualan
-13.	Update Penjualan
-14.	Hapus Penjualan
-
-15.	Barang Masuk (Data Grid View Penjualan)
-16.	Tambah Barang Masuk
-17.	Hapus Barang Masuk
-18.	Update Barang Masuk
->>>>>>> 8370ed79154049d02d7e92006560b26d173168f7
-=======
 11.	Form Penjualan (Data Grid View Penjualan) -OK
 12.	Tambah Penjualan -OK
 13.	Update Penjualan -OK
