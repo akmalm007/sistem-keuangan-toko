@@ -142,11 +142,13 @@ Public Class FormBarangMasuk
         CheckID()
 
         mycmd.Connection = myconnection.open
-        mycmd.CommandText = "UPDATE barang_masuk SET " &
-                        “barang.id_barang =='" & Txt_ID_Barang.Text & "', " &
+        Dim SQLQuery = "UPDATE barang_masuk SET " &
+                        “id_barang ='" & Txt_ID_Barang.Text & "', " &
                         “jumlah_barang_masuk='" & Txt_JumlahBarang_Masuk.Text & "', " &
                         “tanggal_barang_masuk='" & Date_BarangMasuk.Value.ToString("yyyy/MM/dd") & "' " &
                         "WHERE id_barang_masuk='" & id_barang_masuk & "' "
+        Debug.WriteLine(SQLQuery)
+        mycmd.CommandText = SQLQuery
 
         '     Update barang_masuk
         'SET barang_masuk.jumlah_barang_masuk = Txt_ID_Barang.Text + barang.stock
