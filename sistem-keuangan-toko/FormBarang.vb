@@ -158,9 +158,9 @@ Public Class FormBarang
 
     Private Sub Btn_HapusBarang_Click(sender As Object, e As EventArgs) Handles Btn_HapusBarang.Click
         If Txt_NamaBarang.Text = "" Or Txt_stock.Text = "" Or Txt_harga.Text = "" Then
-            MsgBox("Pastikan semua box terisi datanya")
+            MsgBox("Pastikan data yang anda pilih benar")
         Else
-            Dim resultInput As DialogResult = MessageBox.Show("Apakah Input sudah benar?", "Pemberitahuan", MessageBoxButtons.YesNo)
+            Dim resultInput As DialogResult = MessageBox.Show("Apakah anda yakin menghapus data ini?", "Pemberitahuan", MessageBoxButtons.YesNo)
 
             If resultInput = DialogResult.No Then
                 MessageBox.Show("Hapus dibatalkan")
@@ -199,19 +199,26 @@ Public Class FormBarang
     Private Sub TSMenu_FormJenisBarang_Click(sender As Object, e As EventArgs) Handles TSMenu_FormJenisBarang.Click
         Dim formJenis = New FormJenisBarang()
         formJenis.Show()
-
+        Me.Close()
     End Sub
 
     Private Sub TSMenu_FormPenjualan_Click(sender As Object, e As EventArgs) Handles TSMenu_FormPenjualan.Click
         Dim formPenjualan = New FormPenjualan()
         formPenjualan.Show()
-
+        Me.Close()
     End Sub
 
     Private Sub FormBarangMasukToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TSMenu_FormBarangMasuk.Click
         Dim formBarangMasuk = New FormBarangMasuk()
         formBarangMasuk.Show()
+        Me.Close()
+    End Sub
 
+    Private Sub SignOutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SignOutToolStripMenuItem.Click
+        MsgBox("Apakah anda yakin ingin keluar?", MessageBoxButtons.YesNo)
+        Dim formSignIn = New FormSignIn()
+        formSignIn.Show()
+        Me.Close()
     End Sub
 
 

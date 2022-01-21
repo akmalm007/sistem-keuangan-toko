@@ -45,6 +45,7 @@ Partial Class FormPenjualan
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.SignOutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.DGV_Penjualan, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -55,11 +56,12 @@ Partial Class FormPenjualan
         '
         Me.DGV_Penjualan.BackgroundColor = System.Drawing.Color.SaddleBrown
         Me.DGV_Penjualan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DGV_Penjualan.Location = New System.Drawing.Point(22, 384)
+        Me.DGV_Penjualan.Location = New System.Drawing.Point(19, 288)
+        Me.DGV_Penjualan.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.DGV_Penjualan.Name = "DGV_Penjualan"
         Me.DGV_Penjualan.RowHeadersWidth = 51
         Me.DGV_Penjualan.RowTemplate.Height = 29
-        Me.DGV_Penjualan.Size = New System.Drawing.Size(775, 269)
+        Me.DGV_Penjualan.Size = New System.Drawing.Size(678, 202)
         Me.DGV_Penjualan.TabIndex = 0
         '
         'MenuStrip1
@@ -69,36 +71,37 @@ Partial Class FormPenjualan
         Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.PilihFormLainnyaToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
-        Me.MenuStrip1.Size = New System.Drawing.Size(824, 29)
+        Me.MenuStrip1.Padding = New System.Windows.Forms.Padding(5, 2, 0, 2)
+        Me.MenuStrip1.Size = New System.Drawing.Size(721, 25)
         Me.MenuStrip1.TabIndex = 25
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'PilihFormLainnyaToolStripMenuItem
         '
         Me.PilihFormLainnyaToolStripMenuItem.BackColor = System.Drawing.Color.PapayaWhip
-        Me.PilihFormLainnyaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TSMenu_FormJenisBarang, Me.TSMenu_FormPenjualan, Me.FormBarangMasukToolStripMenuItem})
-        Me.PilihFormLainnyaToolStripMenuItem.Font = New System.Drawing.Font("Myriad Pro Light", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
+        Me.PilihFormLainnyaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TSMenu_FormJenisBarang, Me.TSMenu_FormPenjualan, Me.FormBarangMasukToolStripMenuItem, Me.SignOutToolStripMenuItem})
+        Me.PilihFormLainnyaToolStripMenuItem.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.PilihFormLainnyaToolStripMenuItem.ForeColor = System.Drawing.Color.Black
         Me.PilihFormLainnyaToolStripMenuItem.Name = "PilihFormLainnyaToolStripMenuItem"
-        Me.PilihFormLainnyaToolStripMenuItem.Size = New System.Drawing.Size(162, 25)
+        Me.PilihFormLainnyaToolStripMenuItem.Size = New System.Drawing.Size(154, 21)
         Me.PilihFormLainnyaToolStripMenuItem.Text = "Pilih Form Lainnya"
         '
         'TSMenu_FormJenisBarang
         '
         Me.TSMenu_FormJenisBarang.Name = "TSMenu_FormJenisBarang"
-        Me.TSMenu_FormJenisBarang.Size = New System.Drawing.Size(244, 26)
+        Me.TSMenu_FormJenisBarang.Size = New System.Drawing.Size(220, 22)
         Me.TSMenu_FormJenisBarang.Text = "Form Jenis Barang"
         '
         'TSMenu_FormPenjualan
         '
         Me.TSMenu_FormPenjualan.Name = "TSMenu_FormPenjualan"
-        Me.TSMenu_FormPenjualan.Size = New System.Drawing.Size(244, 26)
+        Me.TSMenu_FormPenjualan.Size = New System.Drawing.Size(220, 22)
         Me.TSMenu_FormPenjualan.Text = "Form Barang"
         '
         'FormBarangMasukToolStripMenuItem
         '
         Me.FormBarangMasukToolStripMenuItem.Name = "FormBarangMasukToolStripMenuItem"
-        Me.FormBarangMasukToolStripMenuItem.Size = New System.Drawing.Size(244, 26)
+        Me.FormBarangMasukToolStripMenuItem.Size = New System.Drawing.Size(220, 22)
         Me.FormBarangMasukToolStripMenuItem.Text = "Form Barang Masuk"
         '
         'Panel1
@@ -111,9 +114,10 @@ Partial Class FormPenjualan
         Me.Panel1.Controls.Add(Me.Label5)
         Me.Panel1.Controls.Add(Me.Date_Jual)
         Me.Panel1.Controls.Add(Me.Txt_JumlahBarang)
-        Me.Panel1.Location = New System.Drawing.Point(22, 66)
+        Me.Panel1.Location = New System.Drawing.Point(19, 50)
+        Me.Panel1.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(446, 178)
+        Me.Panel1.Size = New System.Drawing.Size(390, 134)
         Me.Panel1.TabIndex = 26
         '
         'Btn_Cari
@@ -121,9 +125,10 @@ Partial Class FormPenjualan
         Me.Btn_Cari.BackColor = System.Drawing.Color.Orange
         Me.Btn_Cari.Font = New System.Drawing.Font("Segoe UI", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
         Me.Btn_Cari.ForeColor = System.Drawing.SystemColors.Control
-        Me.Btn_Cari.Location = New System.Drawing.Point(347, 30)
+        Me.Btn_Cari.Location = New System.Drawing.Point(304, 22)
+        Me.Btn_Cari.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Btn_Cari.Name = "Btn_Cari"
-        Me.Btn_Cari.Size = New System.Drawing.Size(76, 29)
+        Me.Btn_Cari.Size = New System.Drawing.Size(66, 22)
         Me.Btn_Cari.TabIndex = 21
         Me.Btn_Cari.Text = "Cari"
         Me.Btn_Cari.UseVisualStyleBackColor = False
@@ -132,26 +137,27 @@ Partial Class FormPenjualan
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Segoe UI", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Label3.Location = New System.Drawing.Point(19, 35)
+        Me.Label3.Location = New System.Drawing.Point(17, 26)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(81, 20)
+        Me.Label3.Size = New System.Drawing.Size(64, 15)
         Me.Label3.TabIndex = 20
         Me.Label3.Text = "ID Barang"
         '
         'Txt_ID_Barang
         '
-        Me.Txt_ID_Barang.Location = New System.Drawing.Point(173, 32)
+        Me.Txt_ID_Barang.Location = New System.Drawing.Point(151, 24)
+        Me.Txt_ID_Barang.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Txt_ID_Barang.Name = "Txt_ID_Barang"
-        Me.Txt_ID_Barang.Size = New System.Drawing.Size(168, 27)
+        Me.Txt_ID_Barang.Size = New System.Drawing.Size(148, 23)
         Me.Txt_ID_Barang.TabIndex = 19
         '
         'Label2
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Segoe UI", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Label2.Location = New System.Drawing.Point(19, 80)
+        Me.Label2.Location = New System.Drawing.Point(17, 60)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(118, 20)
+        Me.Label2.Size = New System.Drawing.Size(92, 15)
         Me.Label2.TabIndex = 11
         Me.Label2.Text = "Jumlah Barang"
         '
@@ -159,24 +165,26 @@ Partial Class FormPenjualan
         '
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Segoe UI", 9.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Label5.Location = New System.Drawing.Point(19, 128)
+        Me.Label5.Location = New System.Drawing.Point(17, 96)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(102, 20)
+        Me.Label5.Size = New System.Drawing.Size(79, 15)
         Me.Label5.TabIndex = 16
         Me.Label5.Text = "Tanggal Jual"
         '
         'Date_Jual
         '
-        Me.Date_Jual.Location = New System.Drawing.Point(173, 123)
+        Me.Date_Jual.Location = New System.Drawing.Point(151, 92)
+        Me.Date_Jual.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Date_Jual.Name = "Date_Jual"
-        Me.Date_Jual.Size = New System.Drawing.Size(250, 27)
+        Me.Date_Jual.Size = New System.Drawing.Size(219, 23)
         Me.Date_Jual.TabIndex = 14
         '
         'Txt_JumlahBarang
         '
-        Me.Txt_JumlahBarang.Location = New System.Drawing.Point(173, 77)
+        Me.Txt_JumlahBarang.Location = New System.Drawing.Point(151, 58)
+        Me.Txt_JumlahBarang.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Txt_JumlahBarang.Name = "Txt_JumlahBarang"
-        Me.Txt_JumlahBarang.Size = New System.Drawing.Size(250, 27)
+        Me.Txt_JumlahBarang.Size = New System.Drawing.Size(219, 23)
         Me.Txt_JumlahBarang.TabIndex = 7
         '
         'Btn_TambahPenjualan
@@ -184,9 +192,10 @@ Partial Class FormPenjualan
         Me.Btn_TambahPenjualan.BackColor = System.Drawing.Color.Goldenrod
         Me.Btn_TambahPenjualan.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Btn_TambahPenjualan.ForeColor = System.Drawing.SystemColors.Control
-        Me.Btn_TambahPenjualan.Location = New System.Drawing.Point(498, 92)
+        Me.Btn_TambahPenjualan.Location = New System.Drawing.Point(436, 69)
+        Me.Btn_TambahPenjualan.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Btn_TambahPenjualan.Name = "Btn_TambahPenjualan"
-        Me.Btn_TambahPenjualan.Size = New System.Drawing.Size(299, 29)
+        Me.Btn_TambahPenjualan.Size = New System.Drawing.Size(262, 22)
         Me.Btn_TambahPenjualan.TabIndex = 27
         Me.Btn_TambahPenjualan.Text = "Tambah Penjualan"
         Me.Btn_TambahPenjualan.UseVisualStyleBackColor = False
@@ -196,9 +205,10 @@ Partial Class FormPenjualan
         Me.Btn_UpdatePenjualan.BackColor = System.Drawing.Color.Goldenrod
         Me.Btn_UpdatePenjualan.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Btn_UpdatePenjualan.ForeColor = System.Drawing.SystemColors.Control
-        Me.Btn_UpdatePenjualan.Location = New System.Drawing.Point(498, 137)
+        Me.Btn_UpdatePenjualan.Location = New System.Drawing.Point(436, 103)
+        Me.Btn_UpdatePenjualan.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Btn_UpdatePenjualan.Name = "Btn_UpdatePenjualan"
-        Me.Btn_UpdatePenjualan.Size = New System.Drawing.Size(299, 29)
+        Me.Btn_UpdatePenjualan.Size = New System.Drawing.Size(262, 22)
         Me.Btn_UpdatePenjualan.TabIndex = 28
         Me.Btn_UpdatePenjualan.Text = "Update Penjualan"
         Me.Btn_UpdatePenjualan.UseVisualStyleBackColor = False
@@ -208,9 +218,10 @@ Partial Class FormPenjualan
         Me.Btn_HapusPenjualan.BackColor = System.Drawing.Color.Goldenrod
         Me.Btn_HapusPenjualan.Font = New System.Drawing.Font("Segoe UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Btn_HapusPenjualan.ForeColor = System.Drawing.SystemColors.Control
-        Me.Btn_HapusPenjualan.Location = New System.Drawing.Point(498, 183)
+        Me.Btn_HapusPenjualan.Location = New System.Drawing.Point(436, 137)
+        Me.Btn_HapusPenjualan.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Btn_HapusPenjualan.Name = "Btn_HapusPenjualan"
-        Me.Btn_HapusPenjualan.Size = New System.Drawing.Size(299, 29)
+        Me.Btn_HapusPenjualan.Size = New System.Drawing.Size(262, 22)
         Me.Btn_HapusPenjualan.TabIndex = 29
         Me.Btn_HapusPenjualan.Text = "Hapus Penjualan"
         Me.Btn_HapusPenjualan.UseVisualStyleBackColor = False
@@ -221,9 +232,9 @@ Partial Class FormPenjualan
         Me.Label7.BackColor = System.Drawing.Color.Goldenrod
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.Label7.ForeColor = System.Drawing.SystemColors.Control
-        Me.Label7.Location = New System.Drawing.Point(41, 48)
+        Me.Label7.Location = New System.Drawing.Point(36, 36)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(181, 31)
+        Me.Label7.Size = New System.Drawing.Size(151, 25)
         Me.Label7.TabIndex = 30
         Me.Label7.Text = "Form Penjualan"
         '
@@ -231,9 +242,9 @@ Partial Class FormPenjualan
         '
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Segoe UI Semibold", 12.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
-        Me.Label8.Location = New System.Drawing.Point(327, 348)
+        Me.Label8.Location = New System.Drawing.Point(286, 261)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(192, 28)
+        Me.Label8.Size = New System.Drawing.Size(155, 21)
         Me.Label8.TabIndex = 31
         Me.Label8.Text = "Database Penjualan"
         '
@@ -242,9 +253,10 @@ Partial Class FormPenjualan
         Me.Panel2.BackColor = System.Drawing.Color.Cornsilk
         Me.Panel2.Controls.Add(Me.Label6)
         Me.Panel2.Controls.Add(Me.Label4)
-        Me.Panel2.Location = New System.Drawing.Point(548, 235)
+        Me.Panel2.Location = New System.Drawing.Point(480, 176)
+        Me.Panel2.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(249, 109)
+        Me.Panel2.Size = New System.Drawing.Size(218, 82)
         Me.Panel2.TabIndex = 32
         '
         'Label6
@@ -253,7 +265,7 @@ Partial Class FormPenjualan
         Me.Label6.Font = New System.Drawing.Font("Segoe UI", 24.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point)
         Me.Label6.Location = New System.Drawing.Point(3, 2)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(37, 54)
+        Me.Label6.Size = New System.Drawing.Size(31, 45)
         Me.Label6.TabIndex = 1
         Me.Label6.Text = "!"
         '
@@ -261,27 +273,33 @@ Partial Class FormPenjualan
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point)
-        Me.Label4.Location = New System.Drawing.Point(38, 20)
+        Me.Label4.Location = New System.Drawing.Point(33, 15)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(199, 69)
+        Me.Label4.Size = New System.Drawing.Size(170, 57)
         Me.Label4.TabIndex = 0
         Me.Label4.Text = "Pastikan Inputan" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "ID Barang sesuai dengan " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "yang ada di database"
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(41, 264)
+        Me.Label1.Location = New System.Drawing.Point(36, 198)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(53, 20)
+        Me.Label1.Size = New System.Drawing.Size(41, 15)
         Me.Label1.TabIndex = 33
         Me.Label1.Text = "Label1"
         '
+        'SignOutToolStripMenuItem
+        '
+        Me.SignOutToolStripMenuItem.Name = "SignOutToolStripMenuItem"
+        Me.SignOutToolStripMenuItem.Size = New System.Drawing.Size(220, 22)
+        Me.SignOutToolStripMenuItem.Text = "Sign Out"
+        '
         'FormPenjualan
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 20.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.SeaShell
-        Me.ClientSize = New System.Drawing.Size(824, 665)
+        Me.ClientSize = New System.Drawing.Size(721, 499)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Label8)
@@ -292,6 +310,7 @@ Partial Class FormPenjualan
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Controls.Add(Me.DGV_Penjualan)
+        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.Name = "FormPenjualan"
         Me.Text = "FormPenjualan"
         CType(Me.DGV_Penjualan, System.ComponentModel.ISupportInitialize).EndInit()
@@ -329,4 +348,5 @@ Partial Class FormPenjualan
     Friend WithEvents FormBarangMasukToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Btn_Cari As Button
     Friend WithEvents Label1 As Label
+    Friend WithEvents SignOutToolStripMenuItem As ToolStripMenuItem
 End Class

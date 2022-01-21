@@ -79,4 +79,11 @@
         formbarangmasuk.Show()
         Me.Close()
     End Sub
+
+    Private Sub SignOutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SignOutToolStripMenuItem.Click
+        MsgBox("Apakah anda yakin ingin keluar?", MessageBoxButtons.YesNo)
+        Dim formSignIn = New FormSignIn()
+        formSignIn.Show()
+        Me.Close()
+    End Sub
 End Class

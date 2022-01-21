@@ -225,4 +225,10 @@ Public Class FormBarangMasuk
         Txt_ID_Barang.Text = FormCariBarang.id_barang_pilih
     End Sub
 
+    Private Sub SignOutToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SignOutToolStripMenuItem.Click
+        MsgBox("Apakah anda yakin ingin keluar?", MessageBoxButtons.YesNo)
+        Dim formSignIn = New FormSignIn()
+        formSignIn.Show()
+        Me.Close()
+    End Sub
 End Class

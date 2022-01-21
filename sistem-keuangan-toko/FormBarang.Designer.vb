@@ -45,6 +45,7 @@ Partial Class FormBarang
         Me.TSMenu_FormPenjualan = New System.Windows.Forms.ToolStripMenuItem()
         Me.TSMenu_FormBarangMasuk = New System.Windows.Forms.ToolStripMenuItem()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.SignOutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.DGV_Barang, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -225,7 +226,7 @@ Partial Class FormBarang
         'PilihFormLainnyaToolStripMenuItem
         '
         Me.PilihFormLainnyaToolStripMenuItem.BackColor = System.Drawing.Color.LightCyan
-        Me.PilihFormLainnyaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TSMenu_FormJenisBarang, Me.TSMenu_FormPenjualan, Me.TSMenu_FormBarangMasuk})
+        Me.PilihFormLainnyaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TSMenu_FormJenisBarang, Me.TSMenu_FormPenjualan, Me.TSMenu_FormBarangMasuk, Me.SignOutToolStripMenuItem})
         Me.PilihFormLainnyaToolStripMenuItem.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.PilihFormLainnyaToolStripMenuItem.Name = "PilihFormLainnyaToolStripMenuItem"
         Me.PilihFormLainnyaToolStripMenuItem.Size = New System.Drawing.Size(154, 21)
@@ -266,6 +267,12 @@ Partial Class FormBarang
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(502, 267)
         Me.Panel1.TabIndex = 25
+        '
+        'SignOutToolStripMenuItem
+        '
+        Me.SignOutToolStripMenuItem.Name = "SignOutToolStripMenuItem"
+        Me.SignOutToolStripMenuItem.Size = New System.Drawing.Size(220, 22)
+        Me.SignOutToolStripMenuItem.Text = "Sign Out"
         '
         'FormBarang
         '
@@ -318,4 +325,5 @@ Partial Class FormBarang
     Friend WithEvents TSMenu_FormPenjualan As ToolStripMenuItem
     Friend WithEvents Panel1 As Panel
     Friend WithEvents TSMenu_FormBarangMasuk As ToolStripMenuItem
+    Friend WithEvents SignOutToolStripMenuItem As ToolStripMenuItem
 End Class

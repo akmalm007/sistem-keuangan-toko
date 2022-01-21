@@ -25,12 +25,13 @@ Partial Class FormJenisBarang
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.PilihMenuLainnyaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.FormPenjualanToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FormBarangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.FormBarangMasukToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.BtnTambahJenisBarang = New System.Windows.Forms.Button()
         Me.BtnUpdateJenisBarang = New System.Windows.Forms.Button()
         Me.BtnHapusJenisBarang = New System.Windows.Forms.Button()
         Me.DataGridJenisBarang = New System.Windows.Forms.DataGridView()
-        Me.FormBarangToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.FormBarangMasukToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.SignOutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         CType(Me.DataGridJenisBarang, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -46,7 +47,7 @@ Partial Class FormJenisBarang
         '
         'PilihMenuLainnyaToolStripMenuItem
         '
-        Me.PilihMenuLainnyaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FormPenjualanToolStripMenuItem, Me.FormBarangToolStripMenuItem, Me.FormBarangMasukToolStripMenuItem})
+        Me.PilihMenuLainnyaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FormPenjualanToolStripMenuItem, Me.FormBarangToolStripMenuItem, Me.FormBarangMasukToolStripMenuItem, Me.SignOutToolStripMenuItem})
         Me.PilihMenuLainnyaToolStripMenuItem.Name = "PilihMenuLainnyaToolStripMenuItem"
         Me.PilihMenuLainnyaToolStripMenuItem.Size = New System.Drawing.Size(120, 20)
         Me.PilihMenuLainnyaToolStripMenuItem.Text = "Pilih Menu Lainnya"
@@ -56,6 +57,18 @@ Partial Class FormJenisBarang
         Me.FormPenjualanToolStripMenuItem.Name = "FormPenjualanToolStripMenuItem"
         Me.FormPenjualanToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.FormPenjualanToolStripMenuItem.Text = "Form Penjualan"
+        '
+        'FormBarangToolStripMenuItem
+        '
+        Me.FormBarangToolStripMenuItem.Name = "FormBarangToolStripMenuItem"
+        Me.FormBarangToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.FormBarangToolStripMenuItem.Text = "Form Barang"
+        '
+        'FormBarangMasukToolStripMenuItem
+        '
+        Me.FormBarangMasukToolStripMenuItem.Name = "FormBarangMasukToolStripMenuItem"
+        Me.FormBarangMasukToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.FormBarangMasukToolStripMenuItem.Text = "Form Barang Masuk"
         '
         'BtnTambahJenisBarang
         '
@@ -93,17 +106,11 @@ Partial Class FormJenisBarang
         Me.DataGridJenisBarang.Size = New System.Drawing.Size(408, 150)
         Me.DataGridJenisBarang.TabIndex = 4
         '
-        'FormBarangToolStripMenuItem
+        'SignOutToolStripMenuItem
         '
-        Me.FormBarangToolStripMenuItem.Name = "FormBarangToolStripMenuItem"
-        Me.FormBarangToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.FormBarangToolStripMenuItem.Text = "Form Barang"
-        '
-        'FormBarangMasukToolStripMenuItem
-        '
-        Me.FormBarangMasukToolStripMenuItem.Name = "FormBarangMasukToolStripMenuItem"
-        Me.FormBarangMasukToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.FormBarangMasukToolStripMenuItem.Text = "Form Barang Masuk"
+        Me.SignOutToolStripMenuItem.Name = "SignOutToolStripMenuItem"
+        Me.SignOutToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SignOutToolStripMenuItem.Text = "Sign Out"
         '
         'FormJenisBarang
         '
@@ -135,4 +142,5 @@ Partial Class FormJenisBarang
     Friend WithEvents DataGridJenisBarang As DataGridView
     Friend WithEvents FormBarangToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents FormBarangMasukToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents SignOutToolStripMenuItem As ToolStripMenuItem
 End Class

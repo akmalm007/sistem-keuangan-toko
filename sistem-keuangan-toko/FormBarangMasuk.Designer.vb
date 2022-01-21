@@ -46,6 +46,7 @@ Partial Class FormBarangMasuk
         Me.Label4 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
+        Me.SignOutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         CType(Me.DGV_Penjualan, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -79,7 +80,7 @@ Partial Class FormBarangMasuk
         'PilihFormLainnyaToolStripMenuItem
         '
         Me.PilihFormLainnyaToolStripMenuItem.BackColor = System.Drawing.Color.PapayaWhip
-        Me.PilihFormLainnyaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TSMenu_FormJenisBarang, Me.TSMenu_FormPenjualan, Me.FormPenjualanToolStripMenuItem})
+        Me.PilihFormLainnyaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TSMenu_FormJenisBarang, Me.TSMenu_FormPenjualan, Me.FormPenjualanToolStripMenuItem, Me.SignOutToolStripMenuItem})
         Me.PilihFormLainnyaToolStripMenuItem.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point)
         Me.PilihFormLainnyaToolStripMenuItem.ForeColor = System.Drawing.Color.Black
         Me.PilihFormLainnyaToolStripMenuItem.Name = "PilihFormLainnyaToolStripMenuItem"
@@ -297,6 +298,12 @@ Partial Class FormBarangMasuk
         Me.Label9.TabIndex = 34
         Me.Label9.Text = "ID Barang yang terpilih :"
         '
+        'SignOutToolStripMenuItem
+        '
+        Me.SignOutToolStripMenuItem.Name = "SignOutToolStripMenuItem"
+        Me.SignOutToolStripMenuItem.Size = New System.Drawing.Size(212, 22)
+        Me.SignOutToolStripMenuItem.Text = "Sign Out"
+        '
         'FormBarangMasuk
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -353,4 +360,5 @@ Partial Class FormBarangMasuk
     Friend WithEvents Btn_Cari As Button
     Friend WithEvents Label1 As Label
     Friend WithEvents Label9 As Label
+    Friend WithEvents SignOutToolStripMenuItem As ToolStripMenuItem
 End Class
