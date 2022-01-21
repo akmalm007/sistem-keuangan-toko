@@ -22,10 +22,10 @@ Form :
 5.	Update Barang -OK
 6.	Hapus Barang -OK
 
-7.	Form Jenis Barang (Data Grid View Jenis Barang) 
-8.	Tambah Jenis Barang
-9.	Update Jenis Barang
-10.	Hapus Jenis Barang
+7.	Form Jenis Barang (Data Grid View Jenis Barang) -OK
+8.	Tambah Jenis Barang -OK
+9.	Update Jenis Barang -OK
+10.	Hapus Jenis Barang -OK
 
 11.	Form Penjualan (Data Grid View Penjualan) -OK
 12.	Tambah Penjualan -OK
